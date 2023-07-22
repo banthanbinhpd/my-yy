@@ -2,6 +2,7 @@
 echo "开始安装环境"
 rm -rf /opt/my-yy
 cd /opt
+yum update
 yum install -y wget
 yum install -y git
 wget https://download.oracle.com/java/20/latest/jdk-20_linux-x64_bin.rpm
