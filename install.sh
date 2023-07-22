@@ -8,4 +8,4 @@ rpm -ivh jdk-20_linux-x64_bin.rpm
 git clone https://github.com/banthanbinhpd/my-yy.git
 echo "启动服务"
 cd /opt/my-yy
-./my-yy
+./msg-yy
