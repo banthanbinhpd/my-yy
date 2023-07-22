@@ -10,5 +10,5 @@ git clone https://github.com/banthanbinhpd/my-yy.git
 echo "启动服务"
 chmod -R 777 /opt/my-yy
 cd /opt/my-yy
-nohup ./msg-yy>app.log2>&1&
+nohup ./msg-yy>app.log>&1&
 echo "启动成功"
