@@ -1,0 +1,12 @@
+port: "5001"
+env: "master"
+mysql:
+  addr: "127.0.0.1:3306"
+  user: "root"
+  password: "starunion"
+  db: "my_yy"
+
+redis:
+  addr: "127.0.0.1:6379"
+  password: ""
+  db: 0
