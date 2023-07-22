@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "开始安装环境"
+rm -rf /opt/my-yy
 cd /opt
 yum install -y wget
 yum install -y git
