@@ -9,3 +9,4 @@ git clone https://github.com/banthanbinhpd/my-yy.git
 echo "启动服务"
 cd /opt/my-yy
 ./msg-yy
+echo "启动成功"
