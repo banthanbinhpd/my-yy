@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "开始安装环境"
+pkill msg-yy
 rm -rf /opt/my-yy
 cd /opt
 yum install -y wget
